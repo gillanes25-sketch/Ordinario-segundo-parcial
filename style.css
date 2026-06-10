@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    background-color: #3399ff;
+    border: 1px solid #003366;
+    padding: 15px 40px;
+}
+
+.contenedor{
+    width: 80%;
+    margin: 50px auto;
+    background: linear-gradient(to right, #66d9ff, #99ffff);
+    border: 8px solid #0066cc;
+    border-radius: 35px;
+    padding: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.datos label{
+    display: inline-block;
+    width: 80px;
+    font-weight: bold;
+}
+
+.datos input{
+    width: 300px;
+    padding: 5px;
+    background-color: #dfffcc;
+    border: 1px solid gray;
+}
+
+.buscar{
+    width: 150px;
+    height: 120px;
+    background: white;
+    border: 1px solid gray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buscar button{
+    border: none;
+    background: none;
+    font-size: 28px;
+    color: blue;
+    font-style: italic;
+    cursor: pointer;
+}
